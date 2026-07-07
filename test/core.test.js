@@ -2,7 +2,7 @@ import process from "node:process";
 import { createServer } from "node:http";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { vi } from "vitest";
+import { vi } from "vite-plus/test";
 import finalhandler from "finalhandler";
 import getPort from "get-port";
 import serveStatic from "serve-static";

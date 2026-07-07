@@ -3,7 +3,7 @@ import path from "node:path";
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import fs from "node:fs";
-import { vi } from "vitest";
+import { vi } from "vite-plus/test";
 import vinylStream from "vinyl-source-stream";
 import Vinyl from "vinyl";
 import PluginError from "plugin-error";

@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { Buffer } from "node:buffer";
 import process from "node:process";
 import fs from "node:fs";
-import { vi } from "vitest";
+import { vi } from "vite-plus/test";
 import getPort from "get-port";
 import Vinyl from "vinyl";
 import nock from "nock";

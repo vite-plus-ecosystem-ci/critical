@@ -5,7 +5,7 @@ import process from "node:process";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { globby } from "globby";
-import { vi } from "vitest";
+import { vi } from "vite-plus/test";
 import nn from "normalize-newline";
 import { read, getPkg } from "./helper/index.js";
 

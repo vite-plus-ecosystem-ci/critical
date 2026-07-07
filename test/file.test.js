@@ -6,7 +6,7 @@ import process from "node:process";
 import path from "node:path";
 import { promisify } from "node:util";
 import fs from "node:fs";
-import { vi } from "vitest";
+import { vi } from "vite-plus/test";
 import getPort from "get-port";
 import Vinyl from "vinyl";
 import finalhandler from "finalhandler";

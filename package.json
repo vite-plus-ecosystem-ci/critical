@@ -64,7 +64,7 @@
     "vinyl": "^3.0.1"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "^4.1.6",
+    "@vitest/coverage-v8": "catalog:",
     "async": "^3.2.6",
     "finalhandler": "^2.1.1",
     "get-port": "^7.2.0",
@@ -74,7 +74,9 @@
     "stream-array": "^1.1.2",
     "stream-assert": "^2.0.3",
     "vinyl-source-stream": "^2.0.0",
-    "vite-plus": "catalog:"
+    "vite": "catalog:",
+    "vite-plus": "catalog:",
+    "vitest": "catalog:"
   },
   "engines": {
     "node": ">=22.13.0"
