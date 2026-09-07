@@ -2,13 +2,14 @@ allowBuilds:
   puppeteer: true
   unrs-resolver: true
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
-  vite-plus: latest
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de
+  vitest: 4.1.11
+  vite-plus: 0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de
+  "@vitest/coverage-v8": 4.1.11
 overrides:
-  vite: "catalog:"
-  vitest: "catalog:"
   minimatch: ">=3.1.4"
+  vite@*: "catalog:"
+  vitest@*: "catalog:"
 nodeVersion: 22.22.3
 peerDependencyRules:
   allowAny:
@@ -17,3 +18,14 @@ peerDependencyRules:
   allowedVersions:
     vite: "*"
     vitest: "*"
+minimumReleaseAgeExclude:
+  - "@voidzero-dev/vite-plus-core@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - "@voidzero-dev/vite-plus-darwin-arm64@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - "@voidzero-dev/vite-plus-darwin-x64@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - "@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - "@voidzero-dev/vite-plus-linux-arm64-musl@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - "@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - "@voidzero-dev/vite-plus-linux-x64-musl@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - "@voidzero-dev/vite-plus-win32-arm64-msvc@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - "@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de"
+  - vite-plus@0.0.0-commit.6d65e1780791e2b24b27cf7deb63f57a420e78de
