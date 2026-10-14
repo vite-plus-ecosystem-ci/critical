@@ -19,5 +19,19 @@ peerDependencyRules:
     vite: "*"
     vitest: "*"
 minimumReleaseAgeExclude:
+  # ecosystem-ci smoke test: preview builds and freshly pinned toolchain packages
+  - "@voidzero-dev/*"
+  - "@oxc-project/*"
+  - oxlint
+  - "@oxlint/*"
+  - oxfmt
+  - "@oxfmt/*"
+  - oxlint-tsgolint
+  - "@oxlint-tsgolint/*"
+  - tinybench
+  - yuku-core
+  - yuku-parser
+  - "@yuku-core/*"
+  - "@yuku-toolchain/*"
   - "@voidzero-dev/vite-plus-*"
   - vite-plus
